@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="config.make" open="0" top="0" tabpos="3">
+		<Cursor position="441" topLine="1" />
+	</File>
+	<File name="src/main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="453" topLine="0" />
+	</File>
+	<File name="src/testApp.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="524" topLine="0" />
+	</File>
+	<File name="src/testApp.h" open="0" top="0" tabpos="5">
+		<Cursor position="152" topLine="2" />
+	</File>
+	<File name="../src/Filters/CPUImageFilter.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="69" />
+	</File>
+	<File name="../src/Filters/CPUImageFilter.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="7" />
+	</File>
+	<File name="../src/Filters/Filters.h" open="0" top="0" tabpos="8">
+		<Cursor position="763" topLine="60" />
+	</File>
+	<File name="../src/Filters/ProcessFilters.h" open="1" top="0" tabpos="5">
+		<Cursor position="334" topLine="103" />
+	</File>
+	<File name="../src/Templates/TemplateUtils.h" open="1" top="1" tabpos="6">
+		<Cursor position="344" topLine="30" />
+	</File>
+	<File name="../src/Tracking/BlobManager.h" open="0" top="0" tabpos="0">
+		<Cursor position="169" topLine="4" />
+	</File>
+	<File name="../src/Tracking/Tracking.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="120" />
+	</File>
+	<File name="../src/ofxKCoreN.h" open="1" top="0" tabpos="9">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../src/ofxKCoreVision.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1949" topLine="44" />
+	</File>
+	<File name="../src/ofxKCoreVision.h" open="1" top="0" tabpos="4">
+		<Cursor position="2375" topLine="99" />
+	</File>
+	<File name="../../ofxKinect/src/ofxKinect.h" open="1" top="0" tabpos="8">
+		<Cursor position="5513" topLine="160" />
+	</File>
+	<File name="../../ofxOpenCv/src/ofxCvImage.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="25715" topLine="858" />
+	</File>
+</CodeBlocks_layout_file>
