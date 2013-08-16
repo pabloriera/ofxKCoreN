@@ -10,8 +10,9 @@
 
 #include "ofxKCoreVision.h"
 #include "Controls/gui.h"
+#include <fstream>
 
-
+using namespace std;
 
 /******************************************************************************
 * The setup function is run once to perform initializations in the application
@@ -58,10 +59,23 @@ void ofxKCoreVision::_setup(ofEventArgs &e){
 	if(debugMode) if( (stream = freopen(fileName, "a", stdout) ) == NULL){}
     cameraInited = false;
 
-    numOfKinects =  1;
-    kN_X = 1;
-    kN_Y = 1;
+    ifstream numKinectsfile;
+    string str;
 
+    numKinectsfile.open("numKinects.txt");
+    if (numKinectsfile.is_open())
+        numKinectsfile >> str >> numOfKinects >> str >> kN_X >>str>> kN_Y;
+        else {numOfKinects=1;kN_X=1;kN_Y=1;}
+
+    numKinectsfile.close();
+
+    cout << "Number of Kinects " <<  numOfKinects << endl;
+    cout << "nx grid " <<  kN_X << endl;
+    cout << "ny grid " <<  kN_Y << endl;
+
+    /*numOfKinects =  1;
+    kN_X = 1;
+    kN_Y = 1;*/
 
     sceneWidth            = 640;
     sceneHeight           = 480;
@@ -347,7 +361,6 @@ void ofxKCoreVision::_update(ofEventArgs &e){
         mouse *= 2.0;               //  Scale
 
         if ( pointSelected == -1 ){
-            cout << "mous "<<mouse.x << " " << mouse.y << endl;
             for(int i = 0; i < 4; i++){
                 if ( srcPoints[i].distance(mouse) < 20){
                     srcPoints[i].x = mouse.x;
@@ -657,7 +670,7 @@ void ofxKCoreVision::drawOutlines(){
 		for (int i=0; i<contourFinder.nBlobs; i++){
 
 			if (bDrawOutlines) //Draw contours (outlines) on the source image
-				contourFinder.blobs[i].drawContours(375, 15, 320, 240, MAIN_WINDOW_WIDTH/2.0, MAIN_WINDOW_HEIGHT/2.0);
+				contourFinder.blobs[i].drawContours(375, 15, 320, 240, MAIN_WINDOW_WIDTH/(2.0*kN_X), MAIN_WINDOW_HEIGHT/(2.0*kN_Y);
 
 			if (bShowLabels){ //Show ID label
 				float xpos = contourFinder.blobs[i].centroid.x * (MAIN_WINDOW_WIDTH/camWidth);

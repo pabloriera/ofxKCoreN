@@ -14,7 +14,6 @@
 //Main
 #include "ofMain.h"
 //Addons
-
 #include "ofxOpenCv.h"
 #include "ofxOsc.h"
 #include "ofxXmlSettings.h"
@@ -146,7 +145,6 @@ public:
         contourFinder.bTrackBlobs   =   false;
         contourFinder.bTrackFingers =   false;
         contourFinder.bTrackObjects =   false;
-
 
 
         //  if auto tracker is defined then the tracker automagically comes up
