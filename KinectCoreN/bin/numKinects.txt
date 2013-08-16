@@ -1,0 +1,3 @@
+number_of_kinects 1
+length_grid_x 1
+length_grid_y 3
