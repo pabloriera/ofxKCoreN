@@ -62,6 +62,8 @@ void TUIO::sendTUIO(map<int, Blob> *blobBlobs, map<int, Blob> *fingerBlobs, map<
 				map<int, Blob>::iterator blob;
 				for(blob = blobBlobs->begin(); blob != blobBlobs->end(); blob++) {
 					// omit point (0,0) since this means that we are outside of the range
+
+					cout << blob->second.centroid.x << " " << blob->second.centroid.y << endl;
 					if(blob->second.centroid.x == 0 && blob->second.centroid.y == 0)
 						continue;
 

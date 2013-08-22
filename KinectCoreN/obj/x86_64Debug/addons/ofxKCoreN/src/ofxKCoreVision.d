@@ -98,7 +98,7 @@ obj/x86_64Debug/addons/ofxKCoreN/src/ofxKCoreVision.o: \
  /usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/app/ofAppRunner.h \
  /usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/sound/ofSoundStream.h \
  /usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/sound/ofBaseSoundStream.h \
- /usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/sound/ofRtAudioSoundStream.h \
+ /usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/sound/ofPASoundStream.h \
  /usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/sound/ofSoundPlayer.h \
  /usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/sound/ofBaseSoundPlayer.h \
  /usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/sound/ofOpenALSoundPlayer.h \
@@ -586,7 +586,7 @@ obj/x86_64Debug/addons/ofxKCoreN/src/ofxKCoreVision.o: \
 
 /usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/sound/ofBaseSoundStream.h:
 
-/usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/sound/ofRtAudioSoundStream.h:
+/usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/sound/ofPASoundStream.h:
 
 /usr/local/of_v0.7.4_linux64_release/libs/openFrameworks/sound/ofSoundPlayer.h:
 

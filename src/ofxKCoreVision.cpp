@@ -161,6 +161,7 @@ void ofxKCoreVision::_setup(ofEventArgs &e){
 	//  Setup Calibration
     //
 	calib.setup(kinectsWidth, kinectsHeight, &tracker);
+	//calib.setup(camWidth, camHeight, &tracker);
 
 	//  Allocate Filters
     //
@@ -480,6 +481,9 @@ void ofxKCoreVision::_update(ofEventArgs &e){
 
         contourFinder.findContours(processedImg,  (MIN_BLOB_SIZE * 2) + 1, ((camWidth * camHeight) * .4) * (MAX_BLOB_SIZE * .001), maxBlobs, (double) hullPress, false);
 
+     //   if(contourFinder.bTrackBlobs)
+       //     for (int i=0; i<contourFinder.nBlobs; i++)
+      //          cout << contourFinder.blobs[i].second.centroid.x << " " << contourFinder.blobs[i].second.centroid.y << endl;
 		//  If Object tracking or Finger tracking is enabled
 		//
         if( contourFinder.bTrackBlobs || contourFinder.bTrackFingers || contourFinder.bTrackObjects){
@@ -670,11 +674,13 @@ void ofxKCoreVision::drawOutlines(){
 		for (int i=0; i<contourFinder.nBlobs; i++){
 
 			if (bDrawOutlines) //Draw contours (outlines) on the source image
-				contourFinder.blobs[i].drawContours(375, 15, 320, 240, MAIN_WINDOW_WIDTH/(2.0*kN_X), MAIN_WINDOW_HEIGHT/(2.0*kN_Y);
+				contourFinder.blobs[i].drawContours(375, 15, 320, 240, MAIN_WINDOW_WIDTH/(2.0*kN_X), MAIN_WINDOW_HEIGHT/(2.0*kN_Y));
+
+
 
 			if (bShowLabels){ //Show ID label
-				float xpos = contourFinder.blobs[i].centroid.x * (MAIN_WINDOW_WIDTH/camWidth);
-				float ypos = contourFinder.blobs[i].centroid.y * (MAIN_WINDOW_HEIGHT/camHeight);
+				float xpos = contourFinder.blobs[i].centroid.x * (MAIN_WINDOW_WIDTH);
+				float ypos = contourFinder.blobs[i].centroid.y * (MAIN_WINDOW_HEIGHT);
 
 				ofSetColor(200,255,200);
 				char idStr[1024];
