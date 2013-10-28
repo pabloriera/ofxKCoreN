@@ -8,6 +8,7 @@
  *  Copyright 2009 NUI Group/Inc. All rights reserved.
  *
  */
+
 #ifndef _ofxKCoreVision_H
 #define _ofxKCoreVision_H
 

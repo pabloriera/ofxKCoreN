@@ -7,7 +7,7 @@
 *  Copyright 2009 NUI Group. All rights reserved.
 *
 */
-
+ 
 #include "ofxKCoreVision.h"
 #include "Controls/gui.h"
 #include <fstream>
