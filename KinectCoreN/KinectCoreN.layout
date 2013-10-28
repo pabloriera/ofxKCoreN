@@ -8,54 +8,30 @@
 		<Cursor position="453" topLine="0" />
 	</File>
 	<File name="src/testApp.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="524" topLine="0" />
+		<Cursor position="524" topLine="6" />
 	</File>
 	<File name="src/testApp.h" open="0" top="0" tabpos="5">
 		<Cursor position="152" topLine="2" />
 	</File>
-	<File name="../src/Calibration/Calibration.cpp" open="1" top="0" tabpos="4">
-		<Cursor position="977" topLine="13" />
+	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Calibration/Calibration.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="14312" topLine="335" />
 	</File>
-	<File name="../src/Calibration/CalibrationUtils.cpp" open="1" top="1" tabpos="5">
-		<Cursor position="2989" topLine="79" />
+	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Templates/TemplateUtils.h" open="1" top="1" tabpos="9">
+		<Cursor position="478" topLine="37" />
 	</File>
-	<File name="../src/Filters/CPUImageFilter.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="0" topLine="69" />
+	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/BlobManager.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="212" topLine="0" />
 	</File>
-	<File name="../src/Filters/CPUImageFilter.h" open="0" top="0" tabpos="0">
-		<Cursor position="0" topLine="7" />
-	</File>
-	<File name="../src/Filters/Filters.h" open="0" top="0" tabpos="8">
-		<Cursor position="763" topLine="60" />
-	</File>
-	<File name="../src/Filters/ProcessFilters.h" open="0" top="0" tabpos="5">
-		<Cursor position="334" topLine="101" />
-	</File>
-	<File name="../src/Templates/TemplateUtils.h" open="0" top="0" tabpos="10">
-		<Cursor position="467" topLine="18" />
-	</File>
-	<File name="../src/Tracking/Blob.h" open="0" top="0" tabpos="9">
-		<Cursor position="1833" topLine="63" />
-	</File>
-	<File name="../src/Tracking/BlobManager.h" open="0" top="0" tabpos="0">
-		<Cursor position="169" topLine="4" />
-	</File>
-	<File name="../src/Tracking/Tracking.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="0" topLine="120" />
-	</File>
-	<File name="../src/ofxKCoreN.h" open="0" top="0" tabpos="8">
+	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/BlobManager.h" open="1" top="0" tabpos="6">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="../src/ofxKCoreVision.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="5196" topLine="202" />
+	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/ContourFinder.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="../src/ofxKCoreVision.h" open="0" top="0" tabpos="4">
-		<Cursor position="2375" topLine="99" />
+	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/Tracking.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1147" topLine="18" />
 	</File>
-	<File name="../../ofxKinect/src/ofxKinect.h" open="0" top="0" tabpos="7">
-		<Cursor position="5513" topLine="160" />
-	</File>
-	<File name="../../ofxOpenCv/src/ofxCvImage.cpp" open="0" top="0" tabpos="6">
-		<Cursor position="25715" topLine="858" />
+	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/ofxKCoreVision.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="3445" topLine="91" />
 	</File>
 </CodeBlocks_layout_file>

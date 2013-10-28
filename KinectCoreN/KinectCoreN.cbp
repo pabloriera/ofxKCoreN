@@ -12,7 +12,7 @@
 				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="bin" />
 				<Option object_output="obj/Debug/" />
-				<Option external_deps="/usr/local/of_v0.7.4_linux64_release/libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option external_deps="/usr/local/of_v0.7.4_linux_release/libs/openFrameworksCompiled/lib/linux/libopenFrameworksDebug.a;" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Option projectLinkerOptionsRelation="2" />
@@ -21,693 +21,693 @@
 				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="bin" />
 				<Option object_output="obj/Release/" />
-				<Option external_deps="/usr/local/of_v0.7.4_linux64_release/libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option external_deps="/usr/local/of_v0.7.4_linux_release/libs/openFrameworksCompiled/lib/linux/libopenFrameworks.a;" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Option projectLinkerOptionsRelation="2" />
 			</Target>
 		</Build>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Calibration/Calibration.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Calibration/Calibration.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Calibration" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Calibration/Calibration.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Calibration/Calibration.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Calibration" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Calibration/CalibrationUtils.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Calibration/CalibrationUtils.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Calibration" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Calibration/CalibrationUtils.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Calibration/CalibrationUtils.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Calibration" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Calibration/boxAlign.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Calibration/boxAlign.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Calibration" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Calibration/boxAlign.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Calibration/boxAlign.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Calibration" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Calibration/rect2d.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Calibration/rect2d.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Calibration" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Calibration/vector2d.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Calibration/vector2d.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Calibration" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Communication/TUIO.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Communication/TUIO.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Communication" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Communication/TUIO.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Communication/TUIO.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Communication" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/gui.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/gui.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGui.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGui.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGui.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGui.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiButton.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiButton.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiButton.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiButton.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiColor.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiColor.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiColor.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiColor.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiFiles.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiFiles.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiFiles.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiFiles.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiGlobals.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiGlobals.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiGlobals.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiGlobals.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiKnob.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiKnob.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiKnob.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiKnob.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiMatrix.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiMatrix.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiMatrix.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiMatrix.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiObject.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiObject.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiObject.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiObject.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiPanel.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiPanel.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiPanel.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiPanel.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiPoints.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiPoints.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiPoints.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiPoints.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiRadar.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiRadar.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiRadar.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiRadar.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiScope.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiScope.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiScope.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiScope.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiSlider.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiSlider.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiSlider.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiSlider.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiSwitch.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiSwitch.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiSwitch.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiSwitch.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiTypes.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiTypes.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiXYPad.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiXYPad.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Controls/ofxGuiXYPad.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Controls/ofxGuiXYPad.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Controls" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Events/TouchMessenger.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Events/TouchMessenger.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Events" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Events/TouchMessenger.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Events/TouchMessenger.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Events" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Filters/CPUImageFilter.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Filters/CPUImageFilter.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Filters" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Filters/CPUImageFilter.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Filters/CPUImageFilter.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Filters" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Filters/Filters.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Filters/Filters.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Filters" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Filters/ProcessFilters.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Filters/ProcessFilters.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Filters" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Templates/Template.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Templates/Template.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Templates" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Templates/TemplateUtils.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Templates/TemplateUtils.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Templates" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Templates/TemplateUtils.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Templates/TemplateUtils.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Templates" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Tracking/Blob.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/Blob.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Tracking" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Tracking/BlobManager.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/BlobManager.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Tracking" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Tracking/BlobManager.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/BlobManager.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Tracking" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Tracking/ContourFinder.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/ContourFinder.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Tracking" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Tracking/ContourFinder.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/ContourFinder.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Tracking" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Tracking/Tracking.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/Tracking.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src/Tracking" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/Tracking/Tracking.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/Tracking.h">
 			<Option virtualFolder="addons/ofxKCoreN/src/Tracking" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/ofxKCoreN.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/ofxKCoreN.h">
 			<Option virtualFolder="addons/ofxKCoreN/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/ofxKCoreVision.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/ofxKCoreVision.cpp">
 			<Option virtualFolder="addons/ofxKCoreN/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKCoreN/src/ofxKCoreVision.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/ofxKCoreVision.h">
 			<Option virtualFolder="addons/ofxKCoreN/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/cameras.c">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/cameras.c">
 			<Option compilerVar="CC" />
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/cameras.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/cameras.h">
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/core.c">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/core.c">
 			<Option compilerVar="CC" />
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/freenect_internal.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/freenect_internal.h">
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/libfreenect-registration.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/libfreenect-registration.h">
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/libfreenect.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/libfreenect.h">
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/libfreenect.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/libfreenect.hpp">
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/loader.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/loader.h">
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/registration.c">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/registration.c">
 			<Option compilerVar="CC" />
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/registration.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/registration.h">
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/tilt.c">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/tilt.c">
 			<Option compilerVar="CC" />
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/usb_libusb10.c">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/usb_libusb10.c">
 			<Option compilerVar="CC" />
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libfreenect/usb_libusb10.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libfreenect/usb_libusb10.h">
 			<Option virtualFolder="addons/ofxKinect/libs/libfreenect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/libs/libusb/osx/include/libusb-1.0/libusb.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/libs/libusb/osx/include/libusb-1.0/libusb.h">
 			<Option virtualFolder="addons/ofxKinect/libs/libusb/osx/include/libusb-1.0" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/src/ofxBase3DVideo.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/src/ofxBase3DVideo.h">
 			<Option virtualFolder="addons/ofxKinect/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/src/ofxKinect.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/src/ofxKinect.cpp">
 			<Option virtualFolder="addons/ofxKinect/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxKinect/src/ofxKinect.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxKinect/src/ofxKinect.h">
 			<Option virtualFolder="addons/ofxKinect/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxNetwork/src/ofxNetwork.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxNetwork/src/ofxNetwork.h">
 			<Option virtualFolder="addons/ofxNetwork/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxNetwork/src/ofxNetworkUtils.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxNetwork/src/ofxNetworkUtils.h">
 			<Option virtualFolder="addons/ofxNetwork/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxNetwork/src/ofxTCPClient.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxNetwork/src/ofxTCPClient.cpp">
 			<Option virtualFolder="addons/ofxNetwork/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxNetwork/src/ofxTCPClient.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxNetwork/src/ofxTCPClient.h">
 			<Option virtualFolder="addons/ofxNetwork/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxNetwork/src/ofxTCPManager.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxNetwork/src/ofxTCPManager.cpp">
 			<Option virtualFolder="addons/ofxNetwork/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxNetwork/src/ofxTCPManager.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxNetwork/src/ofxTCPManager.h">
 			<Option virtualFolder="addons/ofxNetwork/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxNetwork/src/ofxTCPServer.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxNetwork/src/ofxTCPServer.cpp">
 			<Option virtualFolder="addons/ofxNetwork/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxNetwork/src/ofxTCPServer.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxNetwork/src/ofxTCPServer.h">
 			<Option virtualFolder="addons/ofxNetwork/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxNetwork/src/ofxUDPManager.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxNetwork/src/ofxUDPManager.cpp">
 			<Option virtualFolder="addons/ofxNetwork/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxNetwork/src/ofxUDPManager.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxNetwork/src/ofxUDPManager.h">
 			<Option virtualFolder="addons/ofxNetwork/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv/cv.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv/cv.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv/cv.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv/cv.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv/cvaux.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv/cvaux.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv/cvaux.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv/cvaux.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv/cvwimage.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv/cvwimage.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv/cxcore.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv/cxcore.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv/cxcore.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv/cxcore.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv/cxeigen.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv/cxeigen.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv/cxmisc.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv/cxmisc.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv/highgui.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv/highgui.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv/ml.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv/ml.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d/calib3d.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d/calib3d.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/contrib/contrib.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/contrib/contrib.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/contrib" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/contrib/retina.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/contrib/retina.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/contrib" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/core" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/core" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/eigen.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/eigen.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/core" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/internal.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/internal.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/core" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/core" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/operations.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/operations.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/core" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/core" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/version.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/version.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/core" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/wimage.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/core/wimage.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/core" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d/features2d.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d/features2d.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/features2d" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/all_indices.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/all_indices.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/allocator.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/allocator.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/any.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/any.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/autotuned_index.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/autotuned_index.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/composite_index.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/composite_index.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/config.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/config.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/defines.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/defines.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dist.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dist.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dummy.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dummy.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dynamic_bitset.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dynamic_bitset.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann_base.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann_base.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/general.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/general.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/ground_truth.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/ground_truth.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/hdf5.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/hdf5.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/heap.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/heap.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/hierarchical_clustering_index.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/hierarchical_clustering_index.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/index_testing.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/index_testing.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_index.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_index.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_single_index.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_single_index.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kmeans_index.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kmeans_index.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/linear_index.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/linear_index.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/logger.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/logger.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_index.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_index.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_table.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_table.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/matrix.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/matrix.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/miniflann.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/miniflann.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/nn_index.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/nn_index.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/object_factory.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/object_factory.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/params.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/params.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/random.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/random.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/result_set.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/result_set.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/sampling.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/sampling.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/saving.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/saving.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/simplex_downhill.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/simplex_downhill.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/timer.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/timer.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/flann" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/devmem2d.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/devmem2d.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/gpu" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/gpu.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/gpu.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/gpu" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/gpumat.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/gpumat.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/gpu" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/matrix_operations.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/matrix_operations.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/gpu" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/stream_accessor.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/stream_accessor.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/gpu" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui/highgui.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui/highgui.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/highgui" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui/highgui_c.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui/highgui_c.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/highgui" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc_c.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc_c.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/types_c.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/types_c.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/blobtrack.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/blobtrack.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/legacy" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/compat.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/compat.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/legacy" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/legacy.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/legacy.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/legacy" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/streams.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/streams.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/legacy" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ml/ml.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ml/ml.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/ml" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/objdetect.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/objdetect.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/opencv.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/opencv.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ts/ts.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ts/ts.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/ts" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ts/ts_gtest.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/ts/ts_gtest.h">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/ts" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/background_segm.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/background_segm.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/video" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/tracking.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/tracking.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/video" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/video.hpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/libs/opencv/include/opencv2/video/video.hpp">
 			<Option virtualFolder="addons/ofxOpenCv/libs/opencv/include/opencv2/video" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvBlob.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvBlob.h">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvColorImage.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvColorImage.cpp">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvColorImage.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvColorImage.h">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvConstants.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvConstants.h">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvContourFinder.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvContourFinder.cpp">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvContourFinder.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvContourFinder.h">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvFloatImage.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvFloatImage.cpp">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvFloatImage.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvFloatImage.h">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvGrayscaleImage.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvGrayscaleImage.h">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvHaarFinder.cpp">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvHaarFinder.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvHaarFinder.h">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvImage.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvImage.cpp">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvImage.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvImage.h">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvMain.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvMain.h">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvShortImage.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvShortImage.cpp">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxCvShortImage.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxCvShortImage.h">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOpenCv/src/ofxOpenCv.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOpenCv/src/ofxOpenCv.h">
 			<Option virtualFolder="addons/ofxOpenCv/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/ip" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/ip" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/ip" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/ip" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/ip/TimerListener.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/ip/TimerListener.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/ip" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/ip" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/ip/posix/NetworkingUtils.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/ip/posix/NetworkingUtils.cpp">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/ip/posix" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/ip/posix/UdpSocket.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/ip/posix/UdpSocket.cpp">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/ip/posix" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/ip/win32/NetworkingUtilsWin.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/ip/win32/NetworkingUtilsWin.cpp">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/ip/win32" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/ip/win32/UdpSocketWin.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/ip/win32/UdpSocketWin.cpp">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/ip/win32" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/MessageMappingOscPacketListener.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/MessageMappingOscPacketListener.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/OscException.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/OscException.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.cpp">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.cpp">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h">
 			<Option virtualFolder="addons/ofxOsc/libs/oscpack/src/osc" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/src/ofxOsc.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/src/ofxOsc.h">
 			<Option virtualFolder="addons/ofxOsc/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/src/ofxOscArg.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/src/ofxOscArg.h">
 			<Option virtualFolder="addons/ofxOsc/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/src/ofxOscBundle.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/src/ofxOscBundle.cpp">
 			<Option virtualFolder="addons/ofxOsc/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/src/ofxOscBundle.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/src/ofxOscBundle.h">
 			<Option virtualFolder="addons/ofxOsc/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/src/ofxOscMessage.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/src/ofxOscMessage.cpp">
 			<Option virtualFolder="addons/ofxOsc/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/src/ofxOscMessage.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/src/ofxOscMessage.h">
 			<Option virtualFolder="addons/ofxOsc/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/src/ofxOscReceiver.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/src/ofxOscReceiver.cpp">
 			<Option virtualFolder="addons/ofxOsc/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/src/ofxOscReceiver.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/src/ofxOscReceiver.h">
 			<Option virtualFolder="addons/ofxOsc/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/src/ofxOscSender.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/src/ofxOscSender.cpp">
 			<Option virtualFolder="addons/ofxOsc/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxOsc/src/ofxOscSender.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxOsc/src/ofxOscSender.h">
 			<Option virtualFolder="addons/ofxOsc/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxXmlSettings/libs/tinyxml.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxXmlSettings/libs/tinyxml.cpp">
 			<Option virtualFolder="addons/ofxXmlSettings/libs" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxXmlSettings/libs/tinyxml.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxXmlSettings/libs/tinyxml.h">
 			<Option virtualFolder="addons/ofxXmlSettings/libs" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxXmlSettings/libs/tinyxmlerror.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxXmlSettings/libs/tinyxmlerror.cpp">
 			<Option virtualFolder="addons/ofxXmlSettings/libs" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxXmlSettings/libs/tinyxmlparser.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxXmlSettings/libs/tinyxmlparser.cpp">
 			<Option virtualFolder="addons/ofxXmlSettings/libs" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxXmlSettings/src/ofxXmlSettings.cpp">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxXmlSettings/src/ofxXmlSettings.cpp">
 			<Option virtualFolder="addons/ofxXmlSettings/src" />
 		</Unit>
-		<Unit filename="/usr/local/of_v0.7.4_linux64_release/addons/ofxXmlSettings/src/ofxXmlSettings.h">
+		<Unit filename="/usr/local/of_v0.7.4_linux_release/addons/ofxXmlSettings/src/ofxXmlSettings.h">
 			<Option virtualFolder="addons/ofxXmlSettings/src" />
 		</Unit>
 		<Unit filename="config.make">
