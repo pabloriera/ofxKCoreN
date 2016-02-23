@@ -9,5 +9,7 @@ Tested and working using:
   * Legacy ofxKinect from https://github.com/ofTheo/ofxKinect
 
 May need this:
+
 $ sudo modprobe -r gspca_kinect 
+
 $ sudo modprobe -r gspca_main
