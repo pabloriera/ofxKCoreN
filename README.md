@@ -2,7 +2,7 @@
 
 Based on https://github.com/patriciogonzalezvivo/KinectCoreVision tweaked for using a grid of kinects
 
-Tested and working with:
+Tested and working using:
 
   * Ubuntu 12.04
   * OpenFrameworks v0.7.4
