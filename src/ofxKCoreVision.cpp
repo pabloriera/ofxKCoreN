@@ -17,7 +17,7 @@ using namespace std;
 /******************************************************************************
 * The setup function is run once to perform initializations in the application
 *****************************************************************************/
-void ofxKCoreVision::_setup(ofEventArgs &e){
+void ofxKCoreVision::setup(){
 	threshold       = 80;
 	nearThreshold   = 550;
 	farThreshold    = 650;
@@ -351,7 +351,7 @@ bool ofxKCoreVision::saveXMLSettings(){
 /******************************************************************************
 * The update function runs continuously. Use it to update states and variables
 *****************************************************************************/
-void ofxKCoreVision::_update(ofEventArgs &e){
+void ofxKCoreVision::update(){
 	if(debugMode) if((stream = freopen(fileName, "a", stdout)) == NULL){}
 
     //  Dragable Warp points
@@ -512,7 +512,7 @@ void ofxKCoreVision::_update(ofEventArgs &e){
 	}
 }
 
-void ofxKCoreVision::_draw(ofEventArgs &e){
+void ofxKCoreVision::draw(){
 	if (showConfiguration){
 
         //  Check the mode

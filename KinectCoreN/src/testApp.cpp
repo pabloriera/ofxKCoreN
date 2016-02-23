@@ -6,14 +6,22 @@ void testApp::setup()
 {
     //ofSetDataPathRoot("data/");
 	ckv = new ofxKCoreVision(debug);
+	ckv->setup();
+
 }
 
 //--------------------------------------------------------------
 void testApp::update(){
+	
+	ckv->update();
+
 }
 
 //--------------------------------------------------------------
 void testApp::draw(){
+
+	ckv->draw();
+
 }
 
 //--------------------------------------------------------------

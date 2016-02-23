@@ -34,7 +34,7 @@
         <HEIGHT>600</HEIGHT>
     </WINDOW>
     <BOOLEAN>
-        <PRESSURE>205</PRESSURE>
+        <PRESSURE>10</PRESSURE>
         <LABELS>1</LABELS>
         <OUTLINES>1</OUTLINES>
         <LEARNBG>0</LEARNBG>
@@ -60,7 +60,7 @@
     </BOOLEAN>
     <KINECT>
         <NEAR>142</NEAR>
-        <FAR>5000</FAR>
+        <FAR>821</FAR>
         <ANGLE>0</ANGLE>
     </KINECT>
     <INT>

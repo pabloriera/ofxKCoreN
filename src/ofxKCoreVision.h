@@ -103,9 +103,9 @@ public:
         ofAddListener(ofEvents().mouseReleased, this, &ofxKCoreVision::_mouseReleased);
         ofAddListener(ofEvents().keyPressed, this, &ofxKCoreVision::_keyPressed);
         ofAddListener(ofEvents().keyReleased, this, &ofxKCoreVision::_keyReleased);
-        ofAddListener(ofEvents().setup, this, &ofxKCoreVision::_setup);
-        ofAddListener(ofEvents().update, this, &ofxKCoreVision::_update);
-        ofAddListener(ofEvents().draw, this, &ofxKCoreVision::_draw);
+        // ofAddListener(ofEvents().setup, this, &ofxKCoreVision::_setup);
+        // ofAddListener(ofEvents().update, this, &ofxKCoreVision::_update);
+        // ofAddListener(ofEvents().draw, this, &ofxKCoreVision::_draw);
         ofAddListener(ofEvents().exit, this, &ofxKCoreVision::_exit);
 
         debugMode = debug;
@@ -170,12 +170,13 @@ public:
 	map<int, Blob> getFingers();
 	map<int, Blob> getObjects();
 
+	void    setup();
+    void    update();
+	void    draw();
+
 private:
     //  Events
     //
-    void    _setup(ofEventArgs &e);
-    void    _update(ofEventArgs &e);
-	void    _draw(ofEventArgs &e);
     void    _exit(ofEventArgs &e);
     void    _mousePressed(ofMouseEventArgs &e);
     void    _mouseDragged(ofMouseEventArgs &e);
