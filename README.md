@@ -8,8 +8,6 @@ Tested and working using:
   * OpenFrameworks v0.7.4
   * Legacy ofxKinect from https://github.com/ofTheo/ofxKinect
 
-May need this:
+For testing use freenect package from neurodebian repo, default package from ubuntu 12.04 repo is outdated.
 
-$ sudo modprobe -r gspca_kinect 
 
-$ sudo modprobe -r gspca_main
