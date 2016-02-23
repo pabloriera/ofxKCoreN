@@ -1,4 +1,6 @@
-# Kinect Core Vision from https://github.com/patriciogonzalezvivo/KinectCoreVision extended for using a grid of kinects
+# Kinect Core Vision 
+
+Based on https://github.com/patriciogonzalezvivo/KinectCoreVision tweaked for using a grid of kinects
 
 Tested and working with:
 
