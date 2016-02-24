@@ -44,6 +44,7 @@ public:
 	bool			bBlobs;
 	bool			bFingers;
 	bool			bObjects;
+	bool 			bPrintCoords;
 
 private:
 	int				frameseq;

@@ -104,7 +104,7 @@ void BlobTracker::track(ContourFinder* newBlobs){
 		trackedObjects[ID].lastTimeTimeWasChecked = now;
 		trackedObjects[ID].centroid.x = calibratedObjects[i].centroid.x;
 		trackedObjects[ID].centroid.y = calibratedObjects[i].centroid.y;
-		cout << trackedObjects[ID].centroid.y << endl;
+		//cout << trackedObjects[ID].centroid.y << endl;
 	}
 
 /****************************************************************************

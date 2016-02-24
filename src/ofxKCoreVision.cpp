@@ -18,9 +18,15 @@ using namespace std;
 * The setup function is run once to perform initializations in the application
 *****************************************************************************/
 void ofxKCoreVision::setup(){
-	threshold       = 80;
+
+//    ofSetLogLevel(OF_LOG_VERBOSE);
+
+
+	//threshold       = 80;
 	nearThreshold   = 550;
 	farThreshold    = 650;
+
+    extranearThreshold = 2000;
 
 	//set the title
 	ofSetWindowTitle("Kinect Vision based on CCV v2.1");
@@ -56,6 +62,7 @@ void ofxKCoreVision::setup(){
 	//  Init Kinect Sensor Device
     //
 	//  save/update log file
+
 	if(debugMode) if( (stream = freopen(fileName, "a", stdout) ) == NULL){}
     cameraInited = false;
 
@@ -86,14 +93,21 @@ void ofxKCoreVision::setup(){
     srcPoints[2] = dstPoints[2] = ofPoint(sceneWidth,sceneHeight); //SET DIMENSION
     srcPoints[3] = dstPoints[3] = ofPoint(0,sceneHeight); //SET DIMENSION
 
-    extranearThreshold = 2000;
+    
 
     kinect = new ofxKinect[numOfKinects];
 
-    for(int kN = 0 ; kN<numOfKinects; kN++){
+    for(size_t kN = 0 ; kN<numOfKinects; kN++){
 
         //kinect[kN].setRegistration(true);
-        if ( kinect[kN].init(false,false,false) ){
+        if ( kinect[kN].init(false,false) ){
+
+            if(kinect[kN].isConnected()) {
+                    ofLogNotice() << "sensor-emitter dist: " << kinect[kN].getSensorEmitterDistance() << "cm";
+                    ofLogNotice() << "sensor-camera dist:  " << kinect[kN].getSensorCameraDistance() << "cm";
+                    ofLogNotice() << "zero plane pixel size: " << kinect[kN].getZeroPlanePixelSize() << "mm";
+                    ofLogNotice() << "zero plane dist: " << kinect[kN].getZeroPlaneDistance() << "mm";
+                }
 
 /*           switch (kN){
                 case 0:
@@ -130,7 +144,7 @@ void ofxKCoreVision::setup(){
     kinectsWidth                = camWidth *kN_X;
     kinectsHeight               = camHeight*kN_Y;
 
-    cout<<"SCc WH "<<camWidth<< "  "<<camHeight<<endl;
+    cout<<"Kinect dimensions WH "<< camWidth << "  " << camHeight<<endl;
 
 	//  Allocate images (needed for drawing/processing images)
     //
@@ -352,6 +366,7 @@ bool ofxKCoreVision::saveXMLSettings(){
 * The update function runs continuously. Use it to update states and variables
 *****************************************************************************/
 void ofxKCoreVision::update(){
+
 	if(debugMode) if((stream = freopen(fileName, "a", stdout)) == NULL){}
 
     //  Dragable Warp points
@@ -389,8 +404,12 @@ void ofxKCoreVision::update(){
     } else {
         pointSelected = -1;
     }
-    for(int kN=0; kN<numOfKinects;kN++)
-        kinect[kN].update();
+
+
+    for(size_t kN=0; kN<numOfKinects;kN++)
+    	kinect[kN].update();	
+
+        
 
 	bNewFrame = true;
 	if(!bNewFrame){
@@ -415,8 +434,8 @@ void ofxKCoreVision::update(){
         //
         frameNew_bool = false;
 
-        for(int kN=0; kN<numOfKinects;kN++)
-            frameNew_bool = frameNew_bool || kinect[kN].isFrameNew();
+        for(size_t kN=0; kN<numOfKinects;kN++)
+         	   frameNew_bool = frameNew_bool || kinect[kN].isFrameNew();
 
         if(frameNew_bool) {
 
@@ -428,7 +447,7 @@ void ofxKCoreVision::update(){
 
             const float* depthRaw;
 
-            for(int kN=0; kN<numOfKinects; kN++){
+            for(size_t kN=0; kN<numOfKinects; kN++){
 
                 depthRaw = kinect[kN].getDistancePixels();
 
@@ -858,14 +877,21 @@ void ofxKCoreVision::_keyPressed(ofKeyEventArgs &e)
 			nearThreshold--;
 			break;
         case 'i':
+
+			angle = kinect[kN_selected].getTargetCameraTiltAngle();
 			angle++;
 			if(angle>30) angle=30;
-			kinect[0].setCameraTiltAngle(angle);
+
+			kinect[kN_selected].setCameraTiltAngle(angle);			
+
 			break;
 		case 'k':
+			
+			angle = kinect[kN_selected].getTargetCameraTiltAngle();
 			angle--;
 			if(angle<-30) angle=-30;
-			kinect[0].setCameraTiltAngle(angle);
+
+			kinect[kN_selected].setCameraTiltAngle(angle);
 			break;
 
         case 'f':
@@ -881,13 +907,32 @@ void ofxKCoreVision::_keyPressed(ofKeyEventArgs &e)
 				bBigMode = true;
 				bShowInterface = false;
 				filter->bBigMode = bBigMode;
-				ofSetWindowShape(950,600); //minimized size
+				ofSetWindowShape(400*kN_X,300*kN_Y); //minimized size
 			}
+			break;
+
+		case 'q':
+			
+			kinect[kN_selected].close();
+
+			kinect[kN_selected].init(false,false);
+
+			kinect[kN_selected].open();
+			
+			break;
+
+		case 'u':
+
+			myTUIO.bPrintCoords = !myTUIO.bPrintCoords;
 			break;
 
 		default:
 			break;
 		}
+
+		if (e.key>=49 && e.key<=57)
+			kN_selected = e.key-49;
+
 	}
 }
 
@@ -964,7 +1009,7 @@ void ofxKCoreVision::_mouseReleased(ofMouseEventArgs &e)
 
 void ofxKCoreVision::_exit(ofEventArgs &e){
 
-    for(int kN=0; kN<numOfKinects;kN++)
+    for(size_t kN=0; kN<numOfKinects;kN++)
         kinect[kN].close();
 
 	//  Save Settings
@@ -979,9 +1024,9 @@ void ofxKCoreVision::_exit(ofEventArgs &e){
 }
 
 ofxKCoreVision::~ofxKCoreVision(){
-        delete filter;
-        filter = NULL;
+//         delete filter;
+//         filter = NULL;
 
-        for(size_t kN = 0;kN<numOfKinects;kN++)
-            kinect[kN].close();
+//         for(size_t kN = 0;kN<numOfKinects;kN++)
+//             kinect[kN].close();
 }

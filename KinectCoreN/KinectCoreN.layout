@@ -1,37 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Release" />
-	<File name="config.make" open="0" top="0" tabpos="3">
-		<Cursor position="441" topLine="1" />
+	<File name="src/main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
 	</File>
-	<File name="src/main.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="453" topLine="0" />
+	<File name="src/testApp.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
 	</File>
-	<File name="src/testApp.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="524" topLine="6" />
+	<File name="config.make" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
 	</File>
-	<File name="src/testApp.h" open="0" top="0" tabpos="5">
-		<Cursor position="152" topLine="2" />
-	</File>
-	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Calibration/Calibration.cpp" open="1" top="0" tabpos="8">
-		<Cursor position="14312" topLine="335" />
-	</File>
-	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Templates/TemplateUtils.h" open="1" top="1" tabpos="9">
-		<Cursor position="478" topLine="37" />
-	</File>
-	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/BlobManager.cpp" open="1" top="0" tabpos="7">
-		<Cursor position="212" topLine="0" />
-	</File>
-	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/BlobManager.h" open="1" top="0" tabpos="6">
-		<Cursor position="0" topLine="0" />
-	</File>
-	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/ContourFinder.cpp" open="1" top="0" tabpos="5">
-		<Cursor position="0" topLine="0" />
-	</File>
-	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/Tracking/Tracking.cpp" open="1" top="0" tabpos="4">
-		<Cursor position="1147" topLine="18" />
-	</File>
-	<File name="../../../../../../../usr/local/of_v0.7.4_linux_release/addons/ofxKCoreN/src/ofxKCoreVision.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="3445" topLine="91" />
+	<File name="src/testApp.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

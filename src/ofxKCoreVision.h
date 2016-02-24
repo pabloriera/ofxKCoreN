@@ -147,6 +147,8 @@ public:
         contourFinder.bTrackFingers =   false;
         contourFinder.bTrackObjects =   false;
 
+        kN_selected = 0;
+
 
         //  if auto tracker is defined then the tracker automagically comes up
         //  on startup..
@@ -215,6 +217,8 @@ private:
     //
     size_t             numOfKinects;
     size_t             kN_X, kN_Y;
+    size_t			   kN_selected;
+    
 	ofxKinect*           kinect;
     ofPoint             srcPoints[4];
     ofPoint             dstPoints[4];
