@@ -7,7 +7,7 @@
 *  Copyright 2009 NUI Group. All rights reserved.
 *
 */
- 
+
 #include "ofxKCoreVision.h"
 #include "Controls/gui.h"
 #include <fstream>
@@ -87,13 +87,15 @@ void ofxKCoreVision::setup(){
     sceneWidth            = 640;
     sceneHeight           = 480;
 
+    timerLB = 0;
+
 
     srcPoints[0] = dstPoints[0] = ofPoint(0,0); //SET DIMENSION
     srcPoints[1] = dstPoints[1] = ofPoint(sceneWidth,0); //SET DIMENSION
     srcPoints[2] = dstPoints[2] = ofPoint(sceneWidth,sceneHeight); //SET DIMENSION
     srcPoints[3] = dstPoints[3] = ofPoint(0,sceneHeight); //SET DIMENSION
 
-    
+
 
     kinect = new ofxKinect[numOfKinects];
 
@@ -269,7 +271,7 @@ bool ofxKCoreVision::loadXMLSettings(){
 
             //  CounterFinder
             //
-            minTempArea					= XML.getValue("INT:MINTEMPAREA",0);
+            minTempArea					= XML.getValue("INT:MINTEMP'b'AREA",0);
             maxTempArea					= XML.getValue("INT:MAXTEMPAREA",0);
             MIN_BLOB_SIZE				= XML.getValue("INT:MINBLOBSIZE",2);
             MAX_BLOB_SIZE				= XML.getValue("INT:MAXBLOBSIZE",100);
@@ -282,7 +284,7 @@ bool ofxKCoreVision::loadXMLSettings(){
             contourFinder.bTrackFingers	= XML.getValue("BOOLEAN:TRACKFINGERS",0);
             contourFinder.bTrackObjects	= XML.getValue("BOOLEAN:TRACKOBJECTS",0);
 
-            //  NETWORK SETTINGS
+            //  NETWORK Settings
             //
             bTUIOMode					= XML.getValue("BOOLEAN:TUIO",0);
             myTUIO.bOSCMode				= XML.getValue("BOOLEAN:OSCMODE",1);
@@ -407,9 +409,12 @@ void ofxKCoreVision::update(){
 
 
     for(size_t kN=0; kN<numOfKinects;kN++)
-    	kinect[kN].update();	
+    	kinect[kN].update();
 
-        
+    for(size_t kN=0; kN<numOfKinects;kN++)
+        if (!kinect[kN].isConnected())
+            ofExit(0);
+
 
 	bNewFrame = true;
 	if(!bNewFrame){
@@ -636,6 +641,16 @@ void ofxKCoreVision::drawFullMode(){
 void ofxKCoreVision::drawBigMode(){
 
     filter->drawOrg();
+
+    // if(contourFinder.bTrackBlobs){
+    //     for (int i=0; i<contourFinder.nBlobs; i++){
+    //     if (bDrawOutlines) //Draw contours (outlines) on the source image
+    //             contourFinder.blobs[i].drawContours(0,0,sceneWidth, sceneHeight, ofGetWidth(), ofGetHeight());
+
+    //     }
+    // }
+
+
     ofSetColor(255);
 
 }
@@ -708,6 +723,19 @@ void ofxKCoreVision::drawOutlines(){
 				verdana.drawString(idStr, xpos + 365, ypos + contourFinder.blobs[i].boundingRect.height/2 + 15);
 			}
 		}
+        if(contourFinder.nBlobs==0)
+        {
+            
+            if(ofGetElapsedTimeMillis()>timerLB)
+            {
+                filter->bLearnBakground = true;
+                timerLB += 10000;
+//                cout << timerLB << "\t" << ofGetElapsedTimeMillis() << endl;
+
+            }
+
+
+        }
 	}
 
 	//  Find the blobs for drawing
@@ -882,11 +910,11 @@ void ofxKCoreVision::_keyPressed(ofKeyEventArgs &e)
 			angle++;
 			if(angle>30) angle=30;
 
-			kinect[kN_selected].setCameraTiltAngle(angle);			
+			kinect[kN_selected].setCameraTiltAngle(angle);
 
 			break;
 		case 'k':
-			
+
 			angle = kinect[kN_selected].getTargetCameraTiltAngle();
 			angle--;
 			if(angle<-30) angle=-30;
@@ -912,13 +940,13 @@ void ofxKCoreVision::_keyPressed(ofKeyEventArgs &e)
 			break;
 
 		case 'q':
-			
+
 			kinect[kN_selected].close();
 
 			kinect[kN_selected].init(false,false);
 
 			kinect[kN_selected].open();
-			
+
 			break;
 
 		case 'u':

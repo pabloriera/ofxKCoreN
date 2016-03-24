@@ -218,6 +218,7 @@ private:
     size_t             numOfKinects;
     size_t             kN_X, kN_Y;
     size_t			   kN_selected;
+    long int 		   timerLB;
     
 	ofxKinect*           kinect;
     ofPoint             srcPoints[4];
